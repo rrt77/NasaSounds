@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite For NASA SOUNDS REST API">
+
+	<test name="Verify the defaults value of all parameters and key">
+		<classes>
+
+			<class name="com.nasa.sound.test.SoundGetTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+
+	<test name="Verify Search works for different parameters">
+		<classes>
+			<class name=" " />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Verify limit works for different values">
+		<classes>
+			<class name=" " />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Verify the created API Key after signup">
+		<classes>
+			<class name=" " />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Verify Rate Limiting of calls">
+		<classes>
+			<class name=" " />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
