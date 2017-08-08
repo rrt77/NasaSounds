@@ -4,7 +4,7 @@
 
 * **URL**
 
-  /users/:id
+  https://api.nasa.gov/planetary/sounds
 
 * **Method:**
 
