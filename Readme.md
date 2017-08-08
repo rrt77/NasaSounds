@@ -14,21 +14,22 @@
 
    **Required:**
  
-   `id=[integer]`
+   `api_key=[String]`
 
 * **Data Params**
 
-  None
+  q=[String]
+  limit=[Integer]
 
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 12, name : "Michael Bloom" }`
+    **Content:** `{ id : 1, name : "xyz" }`
  
 * **Error Response:**
 
   * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
+    **Content:** `{ error : "doesn't exist" }`
 
   OR
 
