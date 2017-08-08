@@ -1,4 +1,4 @@
-**Show User**
+**SOUNDS API**
 ----
   Returns json data about a single user.
 
